@@ -1,0 +1,112 @@
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body{
+    /* font-family: 'DM Serif Text', serif; */
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+
+/* ####### menu #######*/
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 88vh;
+    background-color: rgb(0, 0, 34);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.div_logo{
+    margin-top: 140px;
+    width: 240px;
+}
+
+header img{
+    width: 100%;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: 900;
+    letter-spacing: .16rem;
+    text-transform: uppercase;
+}
+
+header ul li{
+    margin-right: 60px;
+}
+
+/* ####### menu fim #######*/
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+.section_1_main_div{
+    background-image: url("../images/foto-sala-1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    margin-top: 12vh;
+    width: 100%;
+}
+
+.section_2{
+    background-image: url("../images/fundo-2.jpg");
+    background-size: cover;
+    background-position: right center;
+}
+
+.section_2_main_div{
+    background-color: rgba(0, 0, 0, 0.56);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.contatos{
+    font-size: 1.4rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 190px;
+}
+
+.contatos div{
+    margin-left: 50px;
+}
+
+.contatos h2{
+    letter-spacing: 3px;
+}
+
+.contatos p{
+    margin-top: 40px;
+}
