@@ -27,17 +27,17 @@ header{
     left: 0;
     right: 0;
     bottom: 88vh;
-    background-color: rgb(0, 0, 34);
+    background-color: rgba(0, 0, 34, .9);
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .div_logo{
-    margin-top: 140px;
-    width: 240px;
+    margin-top: 110px;
+    width: 200px;
 }
 
 header img{
@@ -48,14 +48,15 @@ header ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 900;
     letter-spacing: .16rem;
     text-transform: uppercase;
 }
 
 header ul li{
-    margin-right: 60px;
+    /* margin-left: 40px; */
+    padding: 0 2.1rem;
 }
 
 /* ####### menu fim #######*/
@@ -65,48 +66,105 @@ section{
     width: 100%;
 }
 
-.section_1_main_div{
-    background-image: url("../images/foto-sala-1.jpg");
+.section_1{
+    /* margin-top: 12vh; */
+    background-image: url("../images/fundos-section-1/fundo-1-1.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom center;
-    height: 100vh;
-    margin-top: 12vh;
-    width: 100%;
+    transition: 2s;
 }
 
-.section_2{
+.section_1_main_div{
+    /* background-image: url("../images/fundos-section-1/fundo-1-1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center; */
+    background-color: rgba(0, 0, 0, 0.301);
+    height: 100vh;
+    width: 100%;
+    /* transition: 2s; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: white;
+}
+
+.title{
+    padding: 8.125rem 2rem;
+}
+
+.title h1{
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    /* border: solid 1px rgb(36, 12, 75); */
+
+}
+
+.title h2{
+    /* border: solid 1px red; */
+    font-size: 1.7rem;
+    color: rgb(255, 255, 255);
+    padding-left: 4px;
+}
+
+.background_image_2{
     background-image: url("../images/fundo-2.jpg");
     background-size: cover;
     background-position: right center;
+    background-attachment: fixed;
 }
 
-.section_2_main_div{
-    background-color: rgba(0, 0, 0, 0.56);
-    width: 100%;
+.background_color_transparent{
+    background-color: rgba(0, 0, 0, 0.58);
     height: 100%;
+    width: 100%;
+}
+
+.section_contato_main_div{
+    /* background-color: rgba(0, 0, 0, 0.58); */
+    /* width: 100%; */
+    /* height: 100%; */
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .contatos{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: white;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
-    padding-left: 190px;
+    /* padding-left: 190px; */
+    /* border: solid 2px red; */
+    width: 65%;
 }
 
 .contatos div{
-    margin-left: 50px;
+    /* border: solid 2px red; */
+    
 }
 
 .contatos h2{
     letter-spacing: 3px;
+    padding: 40px 20px 0;
+
 }
 
 .contatos p{
-    margin-top: 40px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 40px; */
+    padding: 20px;
+    letter-spacing: 2px;
+    color: rgb(209, 209, 209);
+}
+
+
+@media (max-width:1135px){
+    html{
+        font-size: 13px;
+    }
 }
