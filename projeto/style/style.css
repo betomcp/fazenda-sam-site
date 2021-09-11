@@ -54,6 +54,11 @@ header ul{
     text-transform: uppercase;
 }
 
+header a{
+    color: white;
+    text-decoration: none;
+}
+
 header ul li{
     /* margin-left: 40px; */
     padding: 0 2.1rem;
@@ -76,18 +81,19 @@ section{
 }
 
 .section_1_main_div{
-    /* background-image: url("../images/fundos-section-1/fundo-1-1.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: bottom center; */
+
     background-color: rgba(0, 0, 0, 0.301);
     height: 100vh;
     width: 100%;
-    /* transition: 2s; */
-    display: flex;
+    /* display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: flex-start; */
     color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .title{
@@ -110,6 +116,24 @@ section{
     padding-left: 4px;
 }
 
+.home_medias{
+    padding: 20px;
+    margin: 0 30px 30px 0;
+    font-size: 1.7rem;
+    display: flex;
+    /* height: 40px; */
+    align-items: flex-start;
+    /* border: solid 1px red; */
+    color: rgb(255, 255, 255);
+}
+
+.home_medias i{
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    background-image: linear-gradient(to top, rgb(252, 175, 69), rgb(253, 29, 29), rgb(131, 58, 180));
+}
+
 .background_image_2{
     background-image: url("../images/fundo-2.jpg");
     background-size: cover;
@@ -122,6 +146,41 @@ section{
     height: 100%;
     width: 100%;
 }
+
+/* FOTOS */
+
+.section_fotos_main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.div_galeria{
+    border:solid 2px red;
+    width: 100%;
+    height: 35vh;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.carrossel{
+    /* border: solid 2px rgb(0, 255, 115); */
+    display: flex;
+    justify-content:
+    center;
+}
+
+.carrossel div{
+    background-color: blue;
+    height: 33vh;
+    width: 35%;
+    border: solid 2px black;
+}
+
+
+
+/* CONTATO */
 
 .section_contato_main_div{
     /* background-color: rgba(0, 0, 0, 0.58); */
@@ -143,14 +202,12 @@ section{
     width: 65%;
 }
 
-.contatos div{
-    /* border: solid 2px red; */
-    
-}
+
 
 .contatos h2{
     letter-spacing: 3px;
     padding: 40px 20px 0;
+    color: rgb(224, 165, 55);
 
 }
 
