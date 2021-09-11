@@ -12,4 +12,4 @@ function changeImage(){
     }
 }
 
-window.setInterval(changeImage, 5500)
+window.setInterval(changeImage, 6500)
