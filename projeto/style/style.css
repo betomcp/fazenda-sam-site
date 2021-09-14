@@ -534,7 +534,10 @@ form input, form textarea{
         width: 100%;
     }
 
-    /* .contato_formDivs */
+    .section_1{
+    background-attachment: scroll;
+    }
+    
 }
 
 
