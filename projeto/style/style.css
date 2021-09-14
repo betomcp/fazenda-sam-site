@@ -534,7 +534,11 @@ form input, form textarea{
         width: 100%;
     }
 
-    .section{
+    .section_1{
+        background-attachment: scroll;
+    }
+
+    .section_alugar, .section_fotos, .section_historia{
         background-attachment: scroll;
     }
     
