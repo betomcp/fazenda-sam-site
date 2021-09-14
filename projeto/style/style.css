@@ -534,8 +534,8 @@ form input, form textarea{
         width: 100%;
     }
 
-    .section_1{
-    background-attachment: scroll;
+    .section{
+        background-attachment: scroll;
     }
     
 }
