@@ -161,8 +161,8 @@ section{
 
 .home_medias i{
     color: white;
-    border-radius: 5px;
-    padding: 2px;
+    border-radius: 10px;
+    padding: 0px;
     background-image: linear-gradient(to top, rgb(252, 175, 69), rgb(253, 29, 29), rgb(131, 58, 180));
 }
 
@@ -439,10 +439,58 @@ form input, form textarea{
 
 
 
+/* detlahes */
+
+.section_detalhes h3{
+    color: #BA713F;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-top: 2%;
+}
+
+.section_detalhes_main_div{
+    display: flex;
+    flex-direction: column;
+}
+
+.section_detalhes_h2_div{
+    padding: 10% 10% 0%;
+    /* border: solid 2px red; */
+
+}
+
+.section_detalhes_info_div{
+    padding: 3% 10% 0% 10%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* border: solid 2px red; */
+}
+
+.section_detalhes_info_div div{
+    /* border: solid 2px rgb(68, 0, 255); */
+    /* width: 100%; */
+    /* color: white; */
+    padding: 5px;
+    color: white;
+}
+
+.section_detalhes_info_div i{
+    /* color: black; */
+    /* color: #BA713F; */
+    color: rgb(158, 158, 158);
+}
+
+.box_icon{
+    color: white;
+}
+
+
+
 /* historia */
 
 .section_historia_main_div{
-    padding: 10% 10% 0;
+    padding: 10% 10% 5%;
 }
 
 .section_historia_main_div p{
@@ -452,6 +500,39 @@ form input, form textarea{
     letter-spacing: 1px;
     margin-top: 2%;
 }
+
+
+
+/* footer  */
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 25vh;
+}
+
+footer div{
+    background-color: rgba(0, 0, 0, 0.863);
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer p{
+    margin: auto;
+    /* border: solid 2px red; */
+    font-size: 2rem;
+}
+
+footer i{
+    background-image: linear-gradient(to top, rgb(252, 175, 69), rgb(253, 29, 29), rgb(131, 58, 180));
+    border-radius: 10px;
+}
+
 
 
 
@@ -538,11 +619,31 @@ form input, form textarea{
         background-attachment: scroll;
     }
 
-    .section_alugar, .section_fotos, .section_historia{
-        background-attachment: scroll;
+    .section_detalhes_main_div{
+        align-items: center;
     }
+
+    .section_detalhes_info_div{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section_detalhes_info_div div{
+        width: 90%;
+        text-align: center;
+    }
+
+    /* .section_alugar, .section_fotos, .section_historia{
+        background-attachment: scroll;
+    } */
     
 }
+
+
+
+
+
 
 
 
