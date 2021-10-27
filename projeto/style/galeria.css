@@ -1,0 +1,39 @@
+body{
+    /* background-color: #210D03; */
+
+}
+
+h1{
+    color: #ffdec3;
+    text-align: center;
+    font-size: 5.6rem;
+    /* text-transform: uppercase; */
+    margin-top: 12vh;
+    letter-spacing: 4px;
+
+}
+
+.section_fotos h2{
+    margin: 5rem 12%;
+}
+
+.background_color_transparent{
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.section_fotos h2{
+    margin: 3rem 12% 0;
+    /* font-size: 2.5rem; */
+    color: rgb(255, 162, 119);
+}
+
+.h2_div{
+    /* border: solid 2px red; */
+    width: 100%;
+    padding: 1.8rem 0 0 0;
+}
+
+.h2_div h2{
+    margin: 0;
+}
+

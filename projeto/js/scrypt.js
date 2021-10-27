@@ -6,10 +6,10 @@ function changeImage(){
     aux++
     if(aux > maxImages){
         aux = 1
-        image.style.backgroundImage = `url(../images/fundos-section-1/fundo-1-${aux}.jpg)`
+        image.style.backgroundImage = `url(./images/fundos-section-1/fundo-1-${aux}.jpg)`
     }else{
-        image.style.backgroundImage = `url(../images/fundos-section-1/fundo-1-${aux}.jpg)`
+        image.style.backgroundImage = `url(./images/fundos-section-1/fundo-1-${aux}.jpg)`
     }
 }
 
-window.setInterval(changeImage, 6500)
+window.setInterval(changeImage, 10000)
